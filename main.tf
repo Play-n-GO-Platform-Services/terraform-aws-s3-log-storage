@@ -1,5 +1,5 @@
 module "default_label" {
-  source     = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.14.1"
+  source     = "git::https://github.com/Play-n-GO-Platform-Services/terraform-null-label.git?ref=playngoplatformv1.0"
   enabled    = var.enabled
   namespace  = var.namespace
   stage      = var.stage
